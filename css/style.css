@@ -70,3 +70,23 @@ h2{
 		padding: 10px;
 	}
 
+	.div-padre{
+		display: flex;
+	}
+
+	.div-md{
+		width: 50%;
+		padding-left: 70px;
+	}
+
+	footer{
+		background-color: #4089b9;
+	}
+	.texto-footer{
+		padding: 10px;
+		font-size: 15px;
+		text-align: center;
+	}
+	body{
+		margin: 0px;
+	}
