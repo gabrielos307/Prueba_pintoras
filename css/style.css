@@ -28,22 +28,18 @@ h2{
 		background-color: blue;
 		color: red;
 	}
-
-	.menu-lista{
-		display: inline-flex;
-		list-style: none;
-	}
-
 	.pad-sm{
 		padding: 15px;
 	}
-
-
+/***************/
 	.menu{
 		text-align: right;
 		width: 80%;
 	}
-
+	.menu-lista{
+		display: inline-flex;
+		list-style: none;
+	}
 	.menu-padre{
 		display: flex;
 	}
@@ -52,24 +48,21 @@ h2{
 		padding-left: 50px;
 		display: flex;
 	}
-
-
 	.enlaces-menu{
 		text-decoration: none;
 		color: red;
 	}
-
 	.enlaces-menu:hover{
 		text-decoration: underline;
 		color: gold;
 	}
+/***************/
 
 
 	header{
 		background-color: black;
 		padding: 10px;
 	}
-
 	.div-padre{
 		display: flex;
 	}
@@ -89,4 +82,18 @@ h2{
 	}
 	body{
 		margin: 0px;
+	}
+	.formulario-input{
+		width: 35%;
+		border: #91adc1 1.5px solid;
+		border-radius: 4px;
+		height: 30px;
+		padding: 4px 5px;
+		font-size: 17px;
+		font-weight: 400;
+		
+	}
+	.formulario-label{
+		font-size: 18px;
+
 	}
